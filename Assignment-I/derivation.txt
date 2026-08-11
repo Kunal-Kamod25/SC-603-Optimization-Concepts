@@ -1,0 +1,13 @@
+f(x) = x**3 - 2*x + 1
+f'(x) exact = 3*x**2 - 2
+
+f(x+h) expanded = h**3 + 3*h**2*x + 3*h*x**2 - 2*h + x**3 - 2*x + 1
+f(x-h) expanded = -h**3 + 3*h**2*x - 3*h*x**2 + 2*h + x**3 - 2*x + 1
+
+Forward difference  = [f(x+h)-f(x)]/h   = h**2 + 3*h*x + 3*x**2 - 2
+Backward difference = [f(x)-f(x-h)]/h   = h**2 - 3*h*x + 3*x**2 - 2
+Central difference  = [f(x+h)-f(x-h)]/2h = h**2 + 3*x**2 - 2
+
+Forward error  (f' - forward)  = h*(-h - 3*x)
+Backward error (f' - backward) = h*(-h + 3*x)
+Central error  (f' - central)  = -h**2
