@@ -1,0 +1,9 @@
+# compiled binary
+numdiff
+
+# object files
+*.o
+*.out
+
+# OS junk
+.DS_Store
