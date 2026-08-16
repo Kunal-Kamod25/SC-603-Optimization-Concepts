@@ -36,7 +36,7 @@ def readCities(PNames):
     P = []
 
     # We use Nominatim to look up city coordinates. It needs an app name, so we give it one.
-    geolocator = Nominatim(user_agent="OPT2_TSP_Assignment_Kunal")
+    geolocator = Nominatim(user_agent="MS2513_TSP_SA_Kunal")
 
     j = 0
 
