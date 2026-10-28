@@ -5,7 +5,7 @@ from geopy.geocoders import Nominatim
 import random
 import time
 
-
+#kk
 # Let's calculate the straight-line distance between two points (cities)
 def Distance(P1, P2):
     # If both points are exactly the same, the distance is obviously zero!
